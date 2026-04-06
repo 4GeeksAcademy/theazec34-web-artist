@@ -3,9 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Alfredo Librero Martin - Professional Musician</title>
+    <meta name="description" content="Discover Alfredo Librero Martin, a talented musician with a rich career in music. Explore their journey, upcoming shows, and connect through social media.">
+    <meta name="keywords" content="musician, artist, music, concerts, shows, biography">
+    <meta property="og:title" content="Alfredo Librero Martin - Professional Musician">
+    <meta property="og:description" content="Discover Alfredo Librero Martin, a talented musician with a rich career in music. Explore their journey, upcoming shows, and connect through social media.">
+    <meta property="og:type" content="profile">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630?text=Alfredo+Librero+Martin">
+    <link rel="canonical" href="https://example.com">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alfredo Librero Martin",
+        "description": "A talented musician with a rich career in music.",
+        "url": "https://example.com",
+        "genre": ["Rock", "Pop"],
+        "sameAs": [
+            "https://facebook.com/theartist",
+            "https://twitter.com/theartist",
+            "https://instagram.com/theartist"
+        ],
+        "performsIn": {
+            "@type": "Event",
+            "name": "Upcoming Show",
+            "startDate": "2026-05-15",
+            "location": {
+                "@type": "Place",
+                "name": "Venue Name",
+                "address": "City, Country"
+            }
+        }
+    }
+    </script>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <nav aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="#hero" class="logo">Alfredo Librero Martin</a>
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="nav-menu" role="list">
+                    <li><a href="#about" aria-current="page">About</a></li>
+                    <li><a href="#career">Career</a></li>
+                    <li><a href="#shows">Shows</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Alfredo Librero Martin</h1>
+                <p>Captivating audiences with soulful melodies and powerful performances.</p>
+                <a href="#shows" class="cta-button">View Upcoming Shows</a>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=800&q=80" alt="Photo of a musician playing the tuba">
+                    </div>
+                    <div class="about-text">
+                        <p>Alfredo Librero Martin is a renowned musician known for their unique blend of genres and emotional depth in music. With years of experience, they have built a loyal fanbase through captivating live performances and innovative soundscapes.</p>
+                        <p>From humble beginnings to international acclaim, Alfredo Librero Martin continues to push boundaries and inspire listeners worldwide.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="career" class="career">
+            <div class="container">
+                <h2>Career Trajectory</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>2010: Debut Album Release</h3>
+                            <p>Released first album, gaining initial recognition in the music scene.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>2015: First Tour</h3>
+                            <p>Embarked on a sold-out national tour, expanding fanbase significantly.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>2020: Grammy Nomination</h3>
+                            <p>Nominated for Best New Artist at the Grammys, marking a career milestone.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>2023: International Collaboration</h3>
+                            <p>Collaborated with global artists, releasing a hit single that topped charts worldwide.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="shows" class="shows">
+            <div class="container">
+                <h2>Upcoming Shows</h2>
+                <div class="shows-grid">
+                    <article class="show-card">
+                        <h3>Concert at Main Venue</h3>
+                        <time datetime="2026-05-15">May 15, 2026</time>
+                        <p>Main Venue, New York, NY</p>
+                        <a href="#" class="ticket-button">Get Tickets</a>
+                    </article>
+                    <article class="show-card">
+                        <h3>Festival Performance</h3>
+                        <time datetime="2026-06-20">June 20, 2026</time>
+                        <p>Music Festival Grounds, Los Angeles, CA</p>
+                        <a href="#" class="ticket-button">Get Tickets</a>
+                    </article>
+                    <article class="show-card">
+                        <h3>Intimate Acoustic Set</h3>
+                        <time datetime="2026-07-10">July 10, 2026</time>
+                        <p>Small Theater, Chicago, IL</p>
+                        <a href="#" class="ticket-button">Get Tickets</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Alfredo Librero Martin. All rights reserved.</p>
+            <ul class="social-links" role="list">
+                <li><a href="https://facebook.com/theartist" aria-label="Facebook">Facebook</a></li>
+                <li><a href="https://twitter.com/theartist" aria-label="Twitter">Twitter</a></li>
+                <li><a href="https://instagram.com/theartist" aria-label="Instagram">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
